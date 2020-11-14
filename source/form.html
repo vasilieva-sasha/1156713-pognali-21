@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Погнали, Направления</title>
+</head>
+<body class="directions">
+  <header class="directions__header header">
+    <div class="header__logo">
+      <img src="logo.png" alt="">
+    </div>
+
+    <nav class="header__navigation navigation">
+      <div class="navigation__toggle">
+      </div>
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#">О сервисе</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#">Направления</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#">Попутчики</a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="header__user">
+      <li class="header__authorisation">
+        <a href="#" class="header__button">Авторизация</a>
+      </li>
+    </ul>
+    <ul class="header__contacts">
+      <li class="header__call">
+        <a href=""></a>
+      </li>
+      <li class="header__mail">
+        <a href="mailto:#"></a>
+      </li>
+    </ul>
+
+    <div class="header__resume">
+      <p class="header__text">
+        В путешествие с крутыми
+        попутчиками!
+      </p>
+    </div>
+  </header>
+  <main class="directions__content">
+    <h1 class="directions__title">Направления</h1>
+    <section class="directions__user user">
+      <h2 class="user__title">Настройки пользователя</h2>
+      <div class="user__level level">
+        <p class="level__number">80</p>
+        <p class="level__text">level</p>
+      </div>
+      <img src="" alt="" class="user__photo">
+      <div class="user__input-wrapper">
+        <input type="file" name="file" id="input__file" class="user__input">
+        <label for="input__file">сменить фото</label>
+      </div>
+      <div class="user__hash-wrapper user-hashtags">
+        <label for="input__hash">ТЭГИ</label>
+        <input type="text" name="hash" id="input__hash" class="user-hashtags__input">
+      </div>
+      <fieldset class="user__transport-wrapper user-transport">
+        <legend class="user-transport__title">транспорт</legend>
+        <ul class="user-transport__list">
+          <li class="user-transport__item">
+            <input class="user-transport__checkbox" type="checkbox" name="transport" id="input__plane" value="plane">
+            <label for="input__plane" class="user-transport__label vehicle vehicle--plane"></label>
+          </li>
+          <li class="user-transport__item">
+            <input class="user-transport__checkbox" type="checkbox" name="transport" id="input__bus" value="bus">
+            <label for="input__bus" class="user-transport__label vehicle  vehicle--bus"></label>
+          </li>
+          <li class="user-transport__item">
+            <input class="user-transport__checkbox" type="checkbox" name="transport" id="input__cycle" value="cycle">
+            <label for="input__cycle" class="user-transport__label vehicle  vehicle--cycle"></label>
+          </li>
+          <li class="user-transport__item">
+            <input class="user-transport__checkbox" type="checkbox" name="transport" id="input__run" value="run">
+            <label for="input__run" class="user-transport__label vehicle  vehicle--run"></label>
+          </li>
+        </ul>
+      </fieldset>
+    </section>
+    <section class="directions__plans plans">
+      <h2 class="plans__title">Мои планы:</h2>
+      <ol class="plans__list">
+        <li class="plans__item plan">
+          <h3 class="plan__title"><span>1</span>Франция, Италия</h3>
+          <p class="plan__companions">3 попутчика</p>
+          <p class="plan_date">26 мар — 29 мар</p>
+          <a href="#" class="plan__button">изменить</a>
+        </li>
+        <li class="plans__item plan">
+          <h3 class="plan__title"><span>2</span>Таиланд, Индонезия</h3>
+          <p class="plan__companions">1 попутчик</p>
+          <p class="plan_date">1 июл — 15 июл</p>
+          <a href="#" class="plan__button">изменить</a>
+        </li>
+      </ol>
+    </section>
+    <section class="directions__form plan-form">
+      <h2 class="plan-form__title">Добавить план:</h2>
+      <ul class="plan-form__pagination pagination">
+        <li class="pagination__item"></li>
+        <li class="pagination__item"></li>
+        <li class="pagination__item"></li>
+      </ul>
+      <ol class="plan-form__list">
+        <li class="plan-form__step step-one">
+          <h3 class="step-one__title">
+            Шаг 1. 
+            <br>
+            Даты пребывания
+          </h3>
+        </li>
+
+        <li class="plan-form__step step-two">
+          
+        </li>
+
+        <li class="plan-form__step step-three">
+          
+        </li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
