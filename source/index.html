@@ -4,9 +4,251 @@
     <meta charset="utf-8">
     <title>HTML Academy: Погнали</title>
   </head>
-  <body>
+  <body class="main">
+    <header class="main__header header">
+      <div class="header__logo">
+        <img src="logo.png" alt="">
+      </div>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+      <nav class="header__navigation navigation">
+        <div class="navigation__toggle">
+        </div>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#">О сервисе</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Направления</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#">Попутчики</a>
+          </li>
+        </ul>
+      </nav>
 
+      <ul class="header__user">
+        <li class="header__call">
+          <a href=""></a>
+        </li>
+        <li class="header__mail">
+          <a href="mailto:#"></a>
+        </li>
+        <li class="header__authorisation">
+          <a href="#" class="header__button">Авторизация</a>
+        </li>
+      </ul>
+
+      <div class="header__resume">
+        <p class="header__text">
+          В путешествие с крутыми
+          попутчиками!
+        </p>
+      </div>
+    </header>
+    <main class="main__content">
+      <h1 class="main__title">Погнали! - сервис по поиску попутчиков</h1>
+      <section class="main__about about">
+        <div class="about__comment comment">
+          <p class="comment__text">
+            «Лучшее приложение, 
+            что я видел в жизни!»
+          </p>
+          <p class="comment__name">
+            Мурат Эльтазин
+            главный редактор
+            газеты «гаджетлайф»
+          </p>
+        </div>
+        <ul class="about__list">
+          <li class="about__item about-item">
+            <p class="about-item__text">Выберите направление</p>
+            <div class="about-item__number">1</div>
+          </li>
+          <li class="about__item about-item">
+            <p class="about-item__text">Изучите идеи путешественников</p>
+            <div class="about-item__number">2</div>
+          </li>
+          <li class="about__item about-item">
+            <p class="about-item__text">Находите тех, кто похож на вас</p>
+            <div class="about-item__number">3</div>
+          </li>
+          <li class="about__item about-item">
+            <p class="about-item__text">Путешествуйте вместе!</p>
+            <div class="about-item__number">4</div>
+          </li>
+        </ul>
+        <div class="about__main">
+          <h2 class="about__title">О сервисе</h2>
+          <p class="about__text">
+            Любое путешествие веселее с попутчиками, которые на одной волне с тобой! 
+            Делитесь своими идеями путешествий и черпайте вдохновение в чужих. 
+          </p>
+          <p class="about__text about__text--bold">
+            А если найдете кого-то 
+            близкого по духу — скорее 
+            зовите в совместный трип!
+          </p>
+        </div>
+      </section>
+      <section class="main__directions directions">
+        <h2 class="directions__title">Направления</h2>
+        <p class="directions__text">
+          Мы не продаем туры
+          и ничего не рекламируем. 
+          Люди сами пишут о странах, 
+          куда хотели бы отправиться
+          и чем можно там заняться.
+        </p>
+        <ul class="directions__list">
+          <li class="directions__item direction">
+            <img src="" alt="" class="direction__image">
+            <div class="direction__wrapper">
+              <h4 class="direction__country">Таиланд</h4>
+              <p class="direction__text">Джунгли зовут!</p>
+              <div class="direction__amount">18321</div>
+            </div>
+          </li>
+          <li class="directions__item direction">
+            <img src="" alt="" class="direction__image">
+            <div class="direction__wrapper">
+              <h4 class="direction__country">Франция</h4>
+              <p class="direction__text">Трэ бьен, манифик!</p>
+              <div class="direction__amount">12518</div>
+            </div>
+          </li>
+          <li class="directions__item direction">
+            <img src="" alt="" class="direction__image">
+            <div class="direction__wrapper">
+              <h4 class="direction__country">Чехия</h4>
+              <p class="direction__text">Закоулки старой Европы</p>
+              <div class="direction__amount">5326</div>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="directions__button">Показать все</a>
+      </section>
+      <section class="main__companions companions-main">
+        <h2 class="companions-main__title">Попутчики</h2>
+        <p class="companions-main__text">
+          Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. 
+          Одному нужен пляж и коктейль, а другому маршрут для хайкинга. 
+        </p>
+        <p class="companions-main__text companions-main__text--bold">Теперь можно легко найти единомышленников!</p>
+        <ul class="companions-main__list">
+          <li class="companions-main__item companion-main">
+            <div class="companion-main__wrapper">
+              <img src="photo.jpeg" alt="" class="companion-main__photo">
+              <div class="companion-main__level">
+                <div class="companion-main__number">99</div>
+                <div class="companion-main__text">level</div>
+              </div>
+            </div>
+            <ul class="companion-main__countries">
+              <li class="companion-main__country"></li>
+              <li class="companion-main__country"></li>
+              <li class="companion-main__country"></li>
+            </ul>
+            <div class="companion-main__info">
+              <div class="companion-main__name-wrapper">
+                <div class="companion-main__line companion-main__line--offline"></div>
+                <p class="companion-main__name">Таня Фирсова</p>
+              </div>
+              <ul class="companion-main__hashtags">
+                <li class="companion-main__hashtag">#ЗОЖ</li>
+                <li class="companion-main__hashtag">#ПП</li>
+                <li class="companion-main__hashtag">#Фитнес</li>
+                <li class="companion-main__hashtag">#пляж</li>
+                <li class="companion-main__hashtag">#авокадо</li>
+                <li class="companion-main__hashtag">#смузи</li>
+              </ul>
+              <ul class="companion-main__vehicles">
+                <li class="companion-main__vehicle vehicle vehicle--plane vehicle--active"></li>
+                <li class="companion-main__vehicle vehicle vehicle--bus"></li>
+                <li class="companion-main__vehicle vehicle vehicle--cicle"></li>
+                <li class="companion-main__vehicle vehicle vehicle--run"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="companions-main__item companion-main">
+            <div class="companion-main__wrapper">
+              <img src="photo.jpeg" alt="" class="companion-main__photo">
+              <div class="companion-main__level">
+                <div class="companion-main__number">80</div>
+                <div class="companion-main__text">level</div>
+              </div>
+            </div>
+            <ul class="companion-main__countries">
+              <li class="companion-main__country"></li>
+              <li class="companion-main__country"></li>
+              <li class="companion-main__country"></li>
+            </ul>
+            <div class="companion-main__info">
+              <div class="companion-main__name-wrapper">
+                <div class="companion-main__line companion-main__line--online"></div>
+                <p class="companion-main__name">Петя Демин</p>
+              </div>
+              <ul class="companion-main__hashtags">
+                <li class="companion-main__hashtag">#бургер</li>
+                <li class="companion-main__hashtag">#бар</li>
+                <li class="companion-main__hashtag">#футбол</li>
+                <li class="companion-main__hashtag">#концерт</li>
+                <li class="companion-main__hashtag">#крафт</li>
+              </ul>
+              <ul class="companion-main__vehicles">
+                <li class="companion-main__vehicle vehicle vehicle--plane vehicle--active"></li>
+                <li class="companion-main__vehicle vehicle vehicle--bus vehicle--active"></li>
+                <li class="companion-main__vehicle vehicle vehicle--cicle"></li>
+                <li class="companion-main__vehicle vehicle vehicle--run vehicle--active"></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="companions-main__button">Показать всех</a>
+      </section>
+      <section class="main__tariffs tariffs-main">
+        <h2 class="tariffs-main__title">Платные услуги</h2>
+        <p class="tariffs-main__add">Добавьте свой профиль</p>
+        <ul class="tariffs-main__list">
+          <li class="tariffs-main__item">
+            <p class="tariffs-main__text">Базовое размещение</p>
+            <p class="tariffs-main__tariff">Бесплатно</p>
+          </li>
+          <li class="tariffs-main__item">
+            <p class="tariffs-main__text">Вывод на первых позициях</p>
+            <p class="tariffs-main__tariff">99 руб./мес</p>
+          </li>
+          <li class="tariffs-main__item">
+            <p class="tariffs-main__text">Кастомный цвет карточки</p>
+            <p class="tariffs-main__tariff">59 руб./мес</p>
+          </li>
+        </ul>
+        <a href="#" class="tariffs-main__button">Показать тарифы для бизнеса</a>
+        <div class="tariffs-main__business tariffs-business">
+          <h3 class="tariffs-business__title">Бизнес-тарифы</h3>
+          <ul class="tariffs-business__list">
+            <li class="tariffs-business__item">
+              <p class="tariffs-business__text">Реклама у блоггера</p>
+              <p class="tariffs-business__tariff">300 000 руб./пост</p>
+            </li>
+            <li class="tariffs-business__item">
+              <p class="tariffs-business__text">Накрутка подписчиков</p>
+              <p class="tariffs-business__tariff">от 1 руб./шт.</p>
+            </li>
+            <li class="tariffs-business__item">
+              <p class="tariffs-business__text">Лайки от ботов</p>
+              <p class="tariffs-business__tariff">от 20 коп./лайк</p>
+            </li>
+            <li class="tariffs-business__item">
+              <p class="tariffs-business__text">Ваш продакт-плейсмент</p>
+              <p class="tariffs-business__tariff"> Индивидуально</p>
+            </li>
+          </ul>
+          <button class="tariffs-business__button">Закрыть окно</button>
+        </div>
+      </section>
+    </main>
+    <footer class="main__footer">
+
+    </footer>
   </body>
 </html>
