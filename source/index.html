@@ -11,8 +11,8 @@
       </div>
 
       <nav class="header__navigation navigation">
-        <div class="navigation__toggle">
-        </div>
+        <button class="navigation__toggle">
+        </button>
         <ul class="navigation__list">
           <li class="navigation__item">
             <a href="#">О сервисе</a>
@@ -27,120 +27,117 @@
       </nav>
 
       <ul class="header__user">
-        <li class="header__call">
-          <a href=""></a>
-        </li>
-        <li class="header__mail">
-          <a href="mailto:#"></a>
-        </li>
         <li class="header__authorisation">
           <a href="#" class="header__button">Авторизация</a>
         </li>
       </ul>
+      <ul class="header__contacts">
+        <li class="header__contact header__contact--call">
+          <a href=""></a>
+        </li>
+        <li class="header__contact header__contact--mail">
+          <a href="mailto:#"></a>
+        </li>
+      </ul>
 
-      <div class="header__resume">
-        <p class="header__text">
-          В путешествие с крутыми
-          попутчиками!
-        </p>
-      </div>
     </header>
     <main class="main__content">
-      <h1 class="main__title">Погнали! - сервис по поиску попутчиков</h1>
       <section class="main__about about">
+        <div class="about__resume">
+          <h1 class="about__tagline">
+            В путешествие с крутыми
+            попутчиками!
+          </h1>
+        </div>
         <div class="about__comment comment">
-          <p class="comment__text">
-            «Лучшее приложение, 
+          <blockquote class="comment__text">
+            «Лучшее приложение,
             что я видел в жизни!»
-          </p>
-          <p class="comment__name">
+          </blockquote>
+          <cite class="comment__name">
             Мурат Эльтазин
             главный редактор
             газеты «гаджетлайф»
-          </p>
+          </cite>
         </div>
-        <ul class="about__list">
+        <ol class="about__list">
           <li class="about__item about-item">
-            <p class="about-item__text">Выберите направление</p>
-            <div class="about-item__number">1</div>
+            <p class="about-item__text" data-number="1">Выберите направление</p>
           </li>
           <li class="about__item about-item">
-            <p class="about-item__text">Изучите идеи путешественников</p>
-            <div class="about-item__number">2</div>
+            <p class="about-item__text" data-number="2">Изучите идеи путешественников</p>
           </li>
           <li class="about__item about-item">
-            <p class="about-item__text">Находите тех, кто похож на вас</p>
-            <div class="about-item__number">3</div>
+            <p class="about-item__text" data-number="3">Находите тех, кто похож на вас</p>
           </li>
           <li class="about__item about-item">
-            <p class="about-item__text">Путешествуйте вместе!</p>
-            <div class="about-item__number">4</div>
+            <p class="about-item__text" data-number="4">Путешествуйте вместе!</p>
           </li>
-        </ul>
+        </ol>
         <div class="about__main">
           <h2 class="about__title">О сервисе</h2>
           <p class="about__text">
-            Любое путешествие веселее с попутчиками, которые на одной волне с тобой! 
-            Делитесь своими идеями путешествий и черпайте вдохновение в чужих. 
+            Любое путешествие веселее с попутчиками, которые на одной волне с тобой!
+            Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
           </p>
-          <p class="about__text about__text--bold">
-            А если найдете кого-то 
-            близкого по духу — скорее 
+          <p class="about__text about__text--important">
+            А если найдете кого-то
+            близкого по духу — скорее
             зовите в совместный трип!
           </p>
         </div>
       </section>
-      <section class="main__directions directions">
-        <h2 class="directions__title">Направления</h2>
-        <p class="directions__text">
+      <section class="main__directions directions-main">
+        <h2 class="directions-main__title">Направления</h2>
+        <p class="directions-main__text">
           Мы не продаем туры
-          и ничего не рекламируем. 
-          Люди сами пишут о странах, 
+          и ничего не рекламируем.
+          Люди сами пишут о странах,
           куда хотели бы отправиться
           и чем можно там заняться.
         </p>
-        <ul class="directions__list">
-          <li class="directions__item direction">
-            <img src="" alt="" class="direction__image">
-            <div class="direction__wrapper">
-              <h4 class="direction__country">Таиланд</h4>
-              <p class="direction__text">Джунгли зовут!</p>
-              <div class="direction__amount">18321</div>
+        <section class="directions-main__list">
+          <div class="directions-main__item direction-main">
+            <img src="" alt="" class="direction-main__image">
+            <div class="direction-main__wrapper">
+              <h3 class="direction-main__country">Таиланд</h3>
+              <p class="direction-main__text">Джунгли зовут!</p>
+              <div class="direction-main__amount">18321</div>
             </div>
-          </li>
-          <li class="directions__item direction">
-            <img src="" alt="" class="direction__image">
-            <div class="direction__wrapper">
-              <h4 class="direction__country">Франция</h4>
-              <p class="direction__text">Трэ бьен, манифик!</p>
-              <div class="direction__amount">12518</div>
+          </div>
+          <div class="directions-main__item direction-main">
+            <img src="" alt="" class="direction-main__image">
+            <div class="direction-main__wrapper">
+              <h3 class="direction-main__country">Франция</h3>
+              <p class="direction-main__text">Трэ бьен, манифик!</p>
+              <div class="direction-main__amount">12518</div>
             </div>
-          </li>
-          <li class="directions__item direction">
-            <img src="" alt="" class="direction__image">
-            <div class="direction__wrapper">
-              <h4 class="direction__country">Чехия</h4>
-              <p class="direction__text">Закоулки старой Европы</p>
-              <div class="direction__amount">5326</div>
+          </div>
+          <div class="directions-main__item direction-main">
+            <img src="" alt="" class="direction-main__image">
+            <div class="direction-main__wrapper">
+              <h3 class="direction-main__country">Чехия</h3>
+              <p class="direction-main__text">Закоулки старой Европы</p>
+              <div class="direction-main__amount">5326</div>
             </div>
-          </li>
-        </ul>
-        <a href="#" class="directions__button">Показать все</a>
+          </div>
+        </section>
+        <a href="#" class="directions-main__button">Показать все</a>
       </section>
       <section class="main__companions companions-main">
         <h2 class="companions-main__title">Попутчики</h2>
         <p class="companions-main__text">
-          Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. 
-          Одному нужен пляж и коктейль, а другому маршрут для хайкинга. 
+          Все мы индивидуальны и у каждого свой взгляд на идеальный отдых.
+          Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
         </p>
-        <p class="companions-main__text companions-main__text--bold">Теперь можно легко найти единомышленников!</p>
-        <ul class="companions-main__list">
-          <li class="companions-main__item companion-main">
+        <p class="companions-main__text companions-main__text--important">Теперь можно легко найти единомышленников!</p>
+        <section class="companions-main__list">
+          <div class="companions-main__item companion-main">
             <div class="companion-main__wrapper">
               <img src="photo.jpeg" alt="" class="companion-main__photo">
               <div class="companion-main__level">
-                <div class="companion-main__number">99</div>
-                <div class="companion-main__text">level</div>
+                <p class="companion-main__number">99</p>
+                <p class="companion-main__text">level</p>
               </div>
             </div>
             <ul class="companion-main__countries">
@@ -164,17 +161,17 @@
               <ul class="companion-main__vehicles">
                 <li class="companion-main__vehicle vehicle vehicle--plane vehicle--active"></li>
                 <li class="companion-main__vehicle vehicle vehicle--bus"></li>
-                <li class="companion-main__vehicle vehicle vehicle--cicle"></li>
+                <li class="companion-main__vehicle vehicle vehicle--cycle"></li>
                 <li class="companion-main__vehicle vehicle vehicle--run"></li>
               </ul>
             </div>
-          </li>
-          <li class="companions-main__item companion-main">
+          </div>
+          <div class="companions-main__item companion-main">
             <div class="companion-main__wrapper">
               <img src="photo.jpeg" alt="" class="companion-main__photo">
               <div class="companion-main__level">
-                <div class="companion-main__number">80</div>
-                <div class="companion-main__text">level</div>
+                <p class="companion-main__number">80</p>
+                <p class="companion-main__text">level</p>
               </div>
             </div>
             <ul class="companion-main__countries">
@@ -197,12 +194,12 @@
               <ul class="companion-main__vehicles">
                 <li class="companion-main__vehicle vehicle vehicle--plane vehicle--active"></li>
                 <li class="companion-main__vehicle vehicle vehicle--bus vehicle--active"></li>
-                <li class="companion-main__vehicle vehicle vehicle--cicle"></li>
+                <li class="companion-main__vehicle vehicle vehicle--cycle"></li>
                 <li class="companion-main__vehicle vehicle vehicle--run vehicle--active"></li>
               </ul>
             </div>
-          </li>
-        </ul>
+          </div>
+        </section>
         <a href="#" class="companions-main__button">Показать всех</a>
       </section>
       <section class="main__tariffs tariffs-main">
@@ -249,21 +246,21 @@
       <section class="main__interested interested">
         <h2 class="interested__title">Заинтересовались?</h2>
         <p class="interested__text">Зарегистрируйтесь, это быстро и бесплатно!
-          Уже зарегистрированы? Тогда 
+          Уже зарегистрированы? Тогда
           скорее <a href="#" class="interested__auth">авторизуйтесь.</a>
         </p>
         <form class="interested__form" action="https://echo.htmlacademy.ru" method="post">
           <input type="email" class="interested__email" placeholder="E-mail">
           <button class="interested__button" type="submit"></button>
         </form>
-        <p class="interested__text">Остались вопросы? 
+        <p class="interested__text">Остались вопросы?
           Мы с радостью на них ответим!
         </p>
         <div class="interested__contacts">
           <a href="tel:88005558628" class="interested__phone">8 800 555-86-28</a>
           <a href="mailto:mail@htmlacademy.ru" class="interested__email">mail@htmlacademy.ru</a>
           <div class="interested__wrapper">
-            <p class="interested__adress">ул. Большая Конюшенная, 19/8</p>
+            <address class="interested__adress">ул. Большая Конюшенная, 19/8</address>
             <a href="" class="interested__route">Проложить маршрут</a>
           </div>
         </div>
