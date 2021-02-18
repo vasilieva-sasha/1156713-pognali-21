@@ -1,0 +1,23 @@
+.header {
+  background-color: $main-dark;
+}
+
+.header__user {
+  padding: 0;
+}
+
+.header__authorisation {
+  width: 270px;
+  background-color: $basic-button;
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.header__button {
+  color: $basic-dark;
+  text-transform: uppercase;
+  font-weight: 700;
+}

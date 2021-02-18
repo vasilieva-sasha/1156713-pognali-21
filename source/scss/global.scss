@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

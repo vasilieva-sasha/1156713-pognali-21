@@ -1,0 +1,22 @@
+.navigation {
+  background: $main-light;
+  color: $main-dark;
+}
+
+.navigation__list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation__item a{
+  color: $main-dark;
+  font-size: 30px;
+  line-height: 1.16em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navigation{
+  font: 3px
+}
